@@ -5,7 +5,7 @@ import Menubar from './Menubar/Menubar';
 function App() {
   return (
     <div className="App">
-     <Menubar></Menubar>
+     <Menubar country="Uganda"  ></Menubar>
     </div>
   );
 }
