@@ -1,10 +1,11 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Menubar from './Menubar/Menubar';
 function App() {
   return (
     <div className="App">
-     <h1 className="text-danger">Hello Fake Store Shop</h1>
+     <Menubar></Menubar>
     </div>
   );
 }
